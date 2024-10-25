@@ -40,15 +40,33 @@ const questions = [
         name: 'license',
         message: 'Please select a license.',
         choices: ['MIT', 'GNU', 'Apache', 'ISC', 'None']
-    }
+    },
+    {
+        type: 'input',
+        name: 'github',
+        message: 'Please provide your GitHub username.'
+    },
+    {
+        type: 'input',
+        name: 'email',
+        message: 'Please provide your email address.'
+    },
 ];
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
+    fs.writeFile(fileName, generateMarkdown(data), (err) =>
+        err ? console.log(err) : console.log('Success!')
+    );
 }
 
 // TODO: Create a function to initialize app
-function init() { }
+function init() { 
+    inquirer.prompt(questions)
+    .then((data) => {
+        writeToFile('README.md', data);
+    });
+}
 
 // Function call to initialize app
 init();
