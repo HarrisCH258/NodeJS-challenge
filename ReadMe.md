@@ -1,24 +1,10 @@
-# Geese
-![License: ISC](https://img.shields.io/badge/License-ISC-green.svg)
+# Challenge 7 Node Js
+
 ## Description
-birds
-## Table of Contents
-[installation](#installation)<br>
-[usage](#usage)<br>
-[contribution](#contribution)<br>
-[test](#test)<br>
-[questions](#questions)<br>
-[license](#license)<br>
-## Installation
-sdfasdf
+As a developer be able to generate readMe files
+I wanted to be able to create the ReadMe files quickly given a series of prompts
+Removes the need to manually generate ReadMe files by creating one through a series of promts
+How to use Node.js to create a file
+
 ## Usage
-fdsafasdf
-## Contribution
-afsfd
-## Test
-start
-## Questions
-If you have any questions, please reach out to me at AOL or visit my GitHub profile ch.
-##license 
-    I wrote this project under the ISC license.
-![License: ISC](https://opensource.org/licenses/ISC)
+
